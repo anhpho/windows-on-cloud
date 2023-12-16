@@ -29,7 +29,7 @@ You can now use below command to auto install Windows.
 - It will give you list of disks (example: /dev/vda)
 - In shell choose Intractive mode or press 6 - On some hosts it may differ..
  
-``` curl -o install.sh -fsSL https://github.com/amjiddader/windows-on-cloud/raw/main/install  && bash install.sh ```
+``` curl -o install.sh -fsSL https://github.com/anhpho/windows-on-cloud/raw/main/install  && bash install.sh ```
 
 - Once Windows is installed - Boot from Disk and access RDP using browser consol.
 - At this point your windows will not have Internet so login and change Internet setting.
