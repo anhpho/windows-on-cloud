@@ -70,8 +70,8 @@ install_os() {
     #mkdir -p /temp
     echo "================================================="
     # Automatically determine primary disk path
-    #primary_disk=$(lsblk -no NAME,MOUNTPOINT | awk '$2=="/" {print $1}' | head -n 1)
-    primary_disk=$(df -h /mnt | awk 'NR==2 {print $1}')
+    primary_disk=$(lsblk -no NAME,MOUNTPOINT | awk '$2=="/" {print $1}' | head -n 1)
+    #primary_disk=$(df -h /mnt | awk 'NR==2 {print $1}')
 
     echo "Installing Windows in $primary_disk"
     echo "If you want to install in another disk or if $primary_disk is not correct disk.."
